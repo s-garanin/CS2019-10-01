@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson03;
+package by.it.garanin.lesson03;
 
 /*
 Lesson 03. Task A2. Стихотворение
@@ -21,5 +21,10 @@ Lesson 03. Task A2. Стихотворение
 Для автоматической проверки откройте и запустите класс Testing
 */
 class TaskA2 {
+    public static void main(String[] args) {
+        String a= "У лукоморья дуб зелёный;";
+
+
+    }
 
 }

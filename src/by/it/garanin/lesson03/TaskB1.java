@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson03;
+package by.it.garanin.lesson03;
 /*
 Lesson 03. Task B1. Литералы.
 
@@ -25,8 +25,8 @@ float f - присваивание в десятичном формате
 
 strictfp class TaskB1 {
     public static  void main(String[] args) {
-        double d = 0;
-        double b = 0;
+        double d = 111;
+        byte b = 0b111;
         double o = 0;
         double h = 0;
         double f = 0;

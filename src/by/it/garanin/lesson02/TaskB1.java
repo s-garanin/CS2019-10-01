@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson02;
+package by.it.garanin.lesson02;
 
 /*
 Выводим квадрат числа
@@ -19,5 +19,15 @@ int i=sc.nextInt();
 
  */
 
+import java.util.Scanner;
+
 class TaskB1 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int i=sc.nextInt();
+        int a = i*i;
+        System.out.println(a);
+
+    }
 }
+
