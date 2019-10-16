@@ -25,7 +25,22 @@ package by.it.garanin.lesson04;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int numb = sc.nextInt();
+        int sum = 0;
+        for (int i = 1; ; i++) {
+            sum = sum + i;
+            if (sum <= numb) {
+                System.out.print(sum + ",");
+            } else break;
+
+        }
+
+
+    }
 
 }
