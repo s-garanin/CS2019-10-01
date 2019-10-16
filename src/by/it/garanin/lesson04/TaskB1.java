@@ -27,4 +27,5 @@ package by.it.garanin.lesson04;
 */
 public class TaskB1 {
 
+
 }
