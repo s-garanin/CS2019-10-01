@@ -13,6 +13,27 @@ package by.it.garanin.lesson05;
 0 9
 */
 
-public class TaskA3 {
+import java.util.Scanner;
 
-}
+public class TaskA3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] array = new int[10];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = sc.nextInt();
+        }
+            int max = array[0];
+            int min = array[0];
+
+            for (int i = 0; i < array.length; i++) {
+                if (array[i] > max) {
+                    max = array[i];
+                }
+                if (array[i] < min) {
+                    min = array[i];
+                }
+            }
+            System.out.print(min + " " + max);
+        }
+    }
+

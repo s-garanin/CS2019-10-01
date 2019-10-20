@@ -31,5 +31,9 @@ boolean win(Dog otherDog)
 
 
 public class TaskC1 {
+    public static void main(String[] args) {
+        
+    }
+
 
 }
